@@ -1,0 +1,11 @@
+javascript:
+  enabled: true
+
+jscs:
+  enabled: true
+
+ruby:
+  config_file: .rubocop.yml
+
+scss:
+  config_file: .scss-lint.yml
