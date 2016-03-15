@@ -1,8 +1,9 @@
 javascript:
-  enabled: true
+  config_file: .jslint.json
 
 jscs:
   enabled: true
+  config_file: .jscs.json
 
 ruby:
   config_file: .rubocop.yml
