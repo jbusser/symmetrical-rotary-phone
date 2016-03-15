@@ -13,7 +13,6 @@ export default Ember.Route.extend({
     };
 
     let currentUser = this.modelFor('application');
-
     return Ember.RSVP.hash({
       schoolClasses: this.store.find('school-class'),
       district: currentUser.get('district'),
